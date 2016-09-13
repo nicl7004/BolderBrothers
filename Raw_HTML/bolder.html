@@ -16,17 +16,22 @@
     }
     h1 {
       position: relative;
-      top: 325px;
+      top: 200px;
       font-size: 50px;
-      height: 60px;
+      height: 70px;
       color: white;
       background: rgba(0, 0, 0, 0.75);
     }
+    h2 {
+      position: relative;
+      font-size: 30px;
+
+    }
     img {
+      padding-top: 150px;
       max-width: 200px;
       margin: 40px 0px 0px 0px;
-      border: 7px solid black;
-      border-radius: 20px;
+
     }
     ul {
       position: fixed;
@@ -43,11 +48,12 @@
       padding: 10px 30px 0px 30px;
     }
     article {
-      max-width: 500px;
+      text-align: center;
       padding: 20px;
-      margin: 0 auto;
+      background: rgba(0, 0, 0, 0.1);
+      background-size: cover;
     }
-    @media (max-width: 500px) {
+    @media (max-width: 825px) {
       h1 {
         font-size: 36px;
         padding: 10px;
@@ -74,8 +80,8 @@
 
   </header>
   <article>
-    <h2>VHS umami pop-up trust fund</h2>
-    <p>Marfa church-key kitsch bicycle rights, 8-bit mixtape cardigan gentrify Echo Park. Street art swag brunch, next level roof party Schlitz hella organic keffiyeh selfies. You probably haven't heard of them polaroid hashtag +1, meggings biodiesel Portland High Life cray tumblr retro.</p>
+    <h2>Our Technology:</h2>
+    <p>Our team utilizes cutting edge drones, the DJI Phantom 4 and DJI Phantom 3 Advanced.</p>
     <button>Like</button>
   </article>
   <article>
@@ -87,6 +93,9 @@
     <h2>Forage food truck keytar master cleanse</h2>
     <p>ethical thundercats sustainable locavore quinoa Neutra. Aesthetic Cosby sweater single-origin coffee, bicycle rights organic lo-fi street art american apparel ennui four loko ethnic Brooklyn small batch. Forage YOLO polaroid</p>
     <button>Like</button>
+  </article>
+  <article>
+    <img src="boulder_bros.png">
   </article>
   <script>
     $("button").on("click", function() {
